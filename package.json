@@ -1,0 +1,30 @@
+{
+  "name": "projecteuler",
+  "version": "1.0.0",
+  "description": "Online Euler Problems Solutions",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node dist/index.js",
+    "dev": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepakraog/projecteuler.git"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "keywords": [],
+  "author": "deepakraog",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deepakraog/projecteuler/issues"
+  },
+  "homepage": "https://github.com/deepakraog/projecteuler#readme"
+}
