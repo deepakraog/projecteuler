@@ -3,7 +3,6 @@ export class Multiples3x5 {
     findWhole(): number {
         let sum = 0;
         let i = 1;
-        let flag = false;
         while (i < 1000) {
             let flag = false;
             if (i % 3 == 0) {
