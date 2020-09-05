@@ -5,6 +5,7 @@ export class LargestPrimeFactor {
         while(num %2 === 0) {
             num/=2;
         }
+        largestPrime = num;
 
         for (let i = 3; i < Math.sqrt(num); i+= 2) {
 
