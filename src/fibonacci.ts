@@ -5,8 +5,8 @@ export class FibonacciSeq {
         let oldSum = sum;
         let temp = sum;
         let evenSum = 0;
-        while( sum <= 4000000) {
-            sum +=  oldSum;
+        while (sum <= 4000000) {
+            sum += oldSum;
             oldSum = temp;
             temp = sum;
             if (sum % 2 === 0) {
