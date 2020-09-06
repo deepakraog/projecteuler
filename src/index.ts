@@ -16,5 +16,5 @@ console.log(`Result of Euler Problem 2 - Even fibonacci sum below 4 million is :
 console.log(`Result of Euler Problem 3 - Largest Prime Number ::: ${largestPrime.primeNumber(600851475143)}`);*/
 
 let palindrome = new PalindromeProduct();
-console.log(`Result of Euler Problem 4 - Largest 2 3 digit product Palindrome ::: ${palindrome.maxPalindrome(3,)}`);
+console.log(`Result of Euler Problem 4 - Largest 2 3 digit product Palindrome ::: ${palindrome.maxPalindrome(3)}`);
 
